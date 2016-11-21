@@ -29,5 +29,5 @@ autoload -Uz bashcompinit
 bashcompinit -i
 
 if [[ -f /etc/bash_completion ]] ; then
-	emulate sh -c 'source /etc/bash_completion'
+	bash -c 'source /etc/bash_completion'
 fi
